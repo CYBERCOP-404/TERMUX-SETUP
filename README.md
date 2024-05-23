@@ -1,4 +1,4 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=TERMUX%20SETUP&fontSize=90&animation=fadeIn&fontAlignY=38&desc=TERMUX%20BESIC%20MODULES%20or%20SETUP%20TOOLS%20BY%20U7P4L&descAlignY=51&descAlign=62" width="100%"/>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=TERMUX%20SETUP&fontSize=90&animation=fadeIn&fontAlignY=38&desc=TERMUX%20BESIC%20%20%20SETUP%20TOOLS%20BY%20CYBER-COP&descAlignY=51&descAlign=62" width="100%"/>
 </p>
 
 <p align="left">
@@ -48,17 +48,17 @@ apt update && apt upgrade -y
 pkg install git
 pkg install python
 pip install requests
-git clone --depth=1 https://github.com/U7P4L-IN/TERMUX-SETUP.git
+git clone --depth=1 https://github.com/CYBERCOP-404/TERMUX-SETUP.git
 cd TERMUX-SETUP
-python3 SET.py
+python3 setup.py
 ```
-<p align="center"><img src="/image/carbon.png">
+<p align="center"><img src="/image/demo1.jpeg">
 
 </br><h2 align="left"><b>SCREENSHORTS : </b></h2>
 
-<p align="center"><img src="/image/demo1.jpg">
-<p align="center"><img src="./image/demo2.jpg">
-<p align="center"><img src="./image/demo3.png">
+<p align="center"><img src="/image/demo2.jpeg">
+<p align="center"><img src="./image/demo3.jpeg">
+<p align="center"><img src="./image/demo4.jpeg">
 
 <p align="center">  <a href="https://t.me/TheU7p4lArmyX"><img width="200" height="80" src="https://i.imgur.com/N7AK7XY.png"></a></p>
 
@@ -66,12 +66,12 @@ python3 SET.py
 
 ### Languages :
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/pin?username=U7P4L-IN&repo=TERMUX-SETUP&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" width="100%"/>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api/pin?username=CYBERCOP-404&repo=TERMUX-SETUP&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" width="100%"/>
 </p>
 
 
 # Report bugs
-If you notice issues while installing this tool or running this tool kindly mail to me at <a href="mailto: lisame0007@gmail.com">Gmail</a> or Open an issue via github.
+If you notice issues while installing this tool or running this tool kindly mail to me at <a href="mailto: cybercopbangladesh@gmail.com">Gmail</a> or Open an issue via github.
 
 ### Contributing
 Feel Free To Clone This Project. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change Or Add, Thank You!!.
@@ -91,7 +91,7 @@ For more convoluted language, see the [LICENSE](/LICENSE).
 <h5 align="center"><b>DESCRIPTION</b></h5>
 
 * ©️ Copyright Message
->> Copyright © [2023-27] [U7P4L-IN]
->All rights reserved. This Python project, along with its code, documentation, and any associated files, is the intellectual property of ANONYMOUS CYBER. You may not reproduce, distribute, or modify the contents of this repository without explicit permission from the owner.
+>> Copyright © [2024-29] [CYBERCOP-404]
+>All rights reserved. This Python project, along with its code, documentation, and any associated files, is the intellectual property of CYBER-COP . You may not reproduce, distribute, or modify the contents of this repository without explicit permission from the owner.
 # Give A Star ⭐
 > You can also give this repository a star to show more people and they can use this repository.
