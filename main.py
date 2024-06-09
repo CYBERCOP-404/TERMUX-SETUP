@@ -25,8 +25,9 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 \033[0;32m
 '''
 command_list='''
-[1] DO YOU NEED TERMUX SETUP
-[3] EXIT PROGRAM
+[2] DO YOU NEED TERMUX SETUP
+[3] DO YOU NEED TERMUX PRIMIUM SETUP
+[4] EXIT PROGRAM
 '''
 url ='https://www.github.com/cybercop-404'
 comm ='''\033[0;31m
@@ -35,6 +36,7 @@ LOGIN ERROR ....
 os.system('clear')
 print(BANNER)
 print(' [1] DO YOU WANT TO BUY THE TOOL  ')
+print(command_list)
 print('\033[1;34m [+] ENTER YOUR PASSWORD ')
 pass_ok=input(f'{A}【•】CHOICE ➤ \033[1;32m ')
 if pass_ok=='1':
@@ -53,8 +55,8 @@ elif pass_ok =='119887':
         CHOICE = input('\033[1;34m ENTER YOUR CHOICE : ')
         if CHOICE =='1':
             os.system('python setup.py')
-        elif CHOICE=='2':
-            break
+        elif CHOICE=='3':
+            os.system('python PREMIUM_SETUP.py')
         else:
             for i in range(10,0,-1):
                 sleep(0.5)
