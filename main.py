@@ -1,10 +1,7 @@
-# import section Start
+# import section start 
 import os 
 from time import sleep
-# import section end
-A = '\x1b[1;93m';Y = '\033[1;33m';G = '\033[1;96m';R = '\x1b[38;5;196m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;48m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X5 = '\x1b[38;5;121m'
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
+# bannner section start
 BANNER='''\033[0;32m
  $$$$$$\ $$\     $$\ $$$$$$$\  $$$$$$$$\ $$$$$$$\ 
 $$  __$$  $$\   $$  |$$  __$$\ $$  _____|$$  __$$\  
@@ -25,20 +22,21 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 \033[0;32m
 '''
 command_list='''
-[2] DO YOU NEED TERMUX SETUP
-[3] DO YOU NEED TERMUX PRIMIUM SETUP
-[4] EXIT PROGRAM
+[1] DO YOU NEED TERMUX SETUP
+[2] DO YOU NEED TERMUX PRIMIUM SETUP
+[3] EXIT PROGRAM
 '''
-url ='https://www.github.com/cybercop-404'
 comm ='''\033[0;31m
 LOGIN ERROR ....
 '''
+url ='https://www.github.com/cybercop-404'
+
 os.system('clear')
 print(BANNER)
 print(' [1] DO YOU WANT TO BUY THE TOOL  ')
-print(command_list)
+print('[+] ENTER YOUR PASSWORD TO RUN THIS TOOL ')
 print('\033[1;34m [+] ENTER YOUR PASSWORD ')
-pass_ok=input(f'{A}【•】CHOICE ➤ \033[1;32m ')
+pass_ok =input('【•】WHAT IS YOUR CHOICE ➤ \033[1;32m ')
 if pass_ok=='1':
     os.system('clear')
     print('FOLLOW MY GITHUB..............')
@@ -49,26 +47,20 @@ if pass_ok=='1':
     sleep(20)
 elif pass_ok =='119887':
     while True:
-        clear_screen()
+        os.system('clear')
         print(BANNER)
         print(command_list)
         CHOICE = input('\033[1;34m ENTER YOUR CHOICE : ')
         if CHOICE =='1':
             os.system('python setup.py')
-        elif CHOICE=='3':
+        elif CHOICE=='2':
             os.system('python PREMIUM_SETUP.py')
         else:
-            for i in range(10,0,-1):
-                sleep(0.5)
-                clear_screen()
-                print(BANNER)
-                print(comm)
-                print(f'TRY AFTER {i} SECOND')
-                sleep(0.5)
+            break
 else:
     for i in range(10,0,-1):
         sleep(0.5)
-        clear_screen()
+        os.system('clear')
         print(BANNER)
         print(comm)
         print(f'TRY AFTER {i} SECOND')
