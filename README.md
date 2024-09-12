@@ -1,8 +1,10 @@
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=TERMUX%20SETUP&fontSize=90&animation=fadeIn&fontAlignY=38&desc=TERMUX%20BESIC%20%20%20SETUP%20TOOLS%20BY%20CYBER-COP&descAlignY=51&descAlign=62" width="100%"/>
 </p>
 ## Install git 
+
 ```
 winget install --id Git.Git -e --source winget
+
 ```
 
 <p align="left">
